@@ -1,0 +1,139 @@
+=======================================================
+= English
+=======================================================
+
+=== Main Window
+
+tooltip-new-command:              Neu - Ctrl+N
+tooltip-open-command:             Öffnen - Ctrl+O
+tooltip-save-command:             Speichern - Ctrl+S
+tooltip-save-as-command:          Speichern unter - Ctrl+Shift+S
+tooltip-toggle-settings:          Einstellungen - Ctrl+,
+tooltip-document-statistics:      (c)Zeichen/(w)Wörter/(p)Standardseiten zählen (1500c=1p)
+tooltip-spell-check:              Rechtschreibkontrolle - Ctrl+F7
+tooltip-word-wrap:                Zeilenumbruch - Ctrl+W
+tooltip-auto-save:                Automatisches Speichern - Alt+S
+tooltip-new-version:              Neue Version ist verfügbar
+settings-flyout-header:           Einstellungen
+
+=== Editor
+
+editor-f1-for-help:               F1 für Hilfe
+editor-new-document:              Neues Dokument
+editor-menu-undo:                 Rückgängig
+editor-menu-redo:                 Wiederholen
+editor-menu-cut:                  Ausschneiden
+editor-menu-copy:                 Kopieren
+editor-menu-paste:                Einfügen
+editor-menu-paste-special:        Einfügen spezial
+editor-menu-paste-from-html:      Paste from HTML
+editor-menu-select-all:           Alles Auswählen
+editor-menu-delete:               Löschen
+editor-menu-wrap-format:          Umbrechen & formatieren
+editor-menu-unwrap-format:        Brechung umkehren & formatieren
+editor-menu-add-to-dictionary:    Zum Wörterbuch hinzufügen
+
+=== Settings Dialog
+
+settings-editor-section:          Editor
+settings-word-wrap:               Zeilenumbruch
+settings-auto-save:               Automatisches Speichern
+settings-line-numbers:            Zeilennummern
+settings-open-last-file:          Öffne letztes Dokument
+settings-remember-cursor-pos:     Zeigerposition merken
+settings-highlight-current:       Aktuelle Zeile hervorheben
+settings-show-scroll-bar:         Vertikale Scrollbar anzeigen
+settings-show-tabs:               Tabulatoren anzeigen
+settings-show-spaces:             Leerzeichen anzeigen
+settings-show-end-of-line:        Zeilenende anzeigen
+settings-sync-scroll-pos:         Synchronisiertes Scrollen
+settings-format-on-save:          Formatieren beim Speichern
+settings-github-markdown:         GitHub Markdown
+
+settings-format-section:          Format
+settings-line-endings:            Zeilenende
+settings-encoding:                Codierung
+settings-encode-automatic:        Automatisch
+
+settings-spell-check-section:     Rechtschreibüberprüfung
+settings-spell-checking:          Rechtschreibüberprüfung
+settings-ignore-all-caps:         Ignoriere Großbuchstaben
+settings-ignore-code-blocks:      Ignoriere Codeblock
+settings-ignore-markup:           Ignoriere Markup Tags
+settings-ignore-words-digits:     Ignoriere Wörter mit Zahlen
+
+settings-advanced:                Erweitert
+settings-open-settings:           Einstellungen
+settings-open-html-template:      HTML Template
+settings-open-dictionary:         Benutzerwörterbuch
+settings-open-snippets:           Snippets
+settings-open-key-bindings:       Tastenbelegung
+
+settings-about:                   Über
+settings-version:                 Version
+settings-web:                     Website
+settings-source:                  Sourcecode
+settings-donate:                  Spenden
+settings-yes-i-donated:           Yes, I Donated!
+
+=== Find Replace Dialog
+
+find-replace-title:               Suchen und Ersetzen
+find-replace-tab-find:            Suchen
+find-replace-tab-replace:         Ersetzen
+find-replace-watermark-find:      Suchen
+find-replace-watermark-replace:   Ersetzen
+find-replace-find-next:           Weitersuchen
+find-replace-replace:             Ersetzen
+find-replace-replace-all:         Alle Ersetzen
+find-replace-match-case:          Übereinstimmung
+find-replace-match-whole-word:    Ganze Wörter ersetzen
+find-replace-regular-expression:  Reguläre Ausdrücke
+find-replace-wildcards:           Wildcards
+
+=== Goto Line Dialog
+
+goto-line-title:                  Gehe zu...
+
+=== Image Drop Progress Dialog
+
+image-drop-insert-path:           Pfad einfügen
+image-drop-upload-imgur:          Auf Imgur hochladen
+image-drop-as-data-uri:           Als Daten URI
+image-drop-as-local-file:         Als Lokale Datei
+image-drop-overwrite-file:        Die Datei existiert bereits. Überschreiben?
+
+=== Recent Files Dialog
+
+recent-files-title:               Zuletzt verwendete Dateien
+recent-file-not-found:            Datei existiert nicht mehr
+
+=== Themes Dialog
+
+themes-title:                     Themes
+
+=== Tooltips
+
+tooltip-f6:                       F6
+tooltip-f7:                       F7
+tooltip-f8:                       F8
+tooltip-f9:                       F9
+tooltip-f10:                      F10
+tooltip-alt-s:                    Alt+S
+tooltip-ctrl-f7:                  Strg+F7
+tooltip-ctrl-w:                   Strg+W
+
+=== Insert Hyperlink Dialog
+
+insert-hyperlink-title:           Link einfügen
+insert-hyperlink-optional-title:  Optionaler Titel
+
+=== Generic
+
+ok:                               OK
+open:                             Öffnen
+save:                             Speichern
+cancel:                           Abbrechen
+message-html-clipboard:		        HTML in die Zwischenablage kopieren
+aslocalfile-save-file-as:         Speichern unter (.png anfügen)?
+table-of-contents:                Inhaltsverzeichnis

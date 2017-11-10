@@ -1,0 +1,140 @@
+﻿=======================================================
+= English
+=======================================================
+
+=== Main Window
+
+tooltip-new-command:              New - Ctrl+N
+tooltip-open-command:             Open - Ctrl+O
+tooltip-save-command:             Save - Ctrl+S
+tooltip-save-as-command:          Save as - Ctrl+Shift+S
+tooltip-toggle-settings:          Settings - Ctrl+,
+tooltip-document-statistics:      (c)haracter/(w)ord/Standard(p)age Count (1500c=1p)
+tooltip-spell-check:              Spell Check - Ctrl+F7
+tooltip-word-wrap:                Word Wrap - Ctrl+W
+tooltip-auto-save:                Auto Save - Alt+S
+tooltip-new-version:              New version available
+settings-flyout-header:           Settings
+
+=== Editor
+
+editor-f1-for-help:               - F1 for Help
+editor-new-document:              New Document
+editor-menu-undo:                 Undo
+editor-menu-redo:                 Redo
+editor-menu-cut:                  Cut
+editor-menu-copy:                 Copy
+editor-menu-paste:                Paste
+editor-menu-paste-special:        Paste Special
+editor-menu-paste-from-html:      Paste from HTML
+editor-menu-select-all:           Select All
+editor-menu-delete:               Delete
+editor-menu-wrap-format:          Wrap & Format
+editor-menu-unwrap-format:        Unwrap & Format
+editor-menu-add-to-dictionary:    Add to Dictionary
+
+=== Settings Dialog
+
+settings-editor-section:          Editor
+settings-word-wrap:               Word Wrap
+settings-auto-save:               Auto Save
+settings-line-numbers:            Line Numbers
+settings-open-last-file:          Open Last File
+settings-remember-cursor-pos:     Remember Cursor Position
+settings-highlight-current:       Highlight Current Line
+settings-show-scroll-bar:         Show Vertical Scrollbar
+settings-show-tabs:               Show Tabs
+settings-show-spaces:             Show Spaces
+settings-show-end-of-line:        Show Line Endings
+settings-sync-scroll-pos:         Synchronize Scroll Positions
+settings-format-on-save:          Format Text on Save
+settings-github-markdown:         GitHub Markdown
+
+settings-format-section:          Format
+settings-line-endings:            Line Endings
+settings-encoding:                Encoding
+settings-encode-automatic:        Automatic
+
+settings-spell-check-section:     Spell Checking
+settings-spell-checking:          Spell Checking
+settings-ignore-all-caps:         Ignore All Caps
+settings-ignore-code-blocks:      Ignore Code Blocks
+settings-ignore-markup:           Ignore Markup Tags
+settings-ignore-words-digits:     Ignore Words with Digits
+
+settings-advanced:                Advanced
+settings-open-settings:           Settings
+settings-open-html-template:      HTML Template
+settings-open-dictionary:         User Dictionary
+settings-open-snippets:           Snippets
+settings-open-key-bindings:       Key Bindings
+
+settings-about:                   About
+settings-version:				  Version
+settings-web:					  Web
+settings-source:				  Source
+settings-donate:				  Donate
+settings-yes-i-donated:           Yes, I Donated!
+
+=== Find Replace Dialog
+
+find-replace-title:               Find and Replace
+find-replace-tab-find:            Find
+find-replace-tab-replace:         Replace
+find-replace-watermark-find:      Find
+find-replace-watermark-replace:   Replace
+find-replace-find-next:           Find Next
+find-replace-replace:             Replace
+find-replace-replace-all:         Replace All
+find-replace-match-case:          Match case
+find-replace-match-whole-word:    Match whole word
+find-replace-regular-expression:  Regular expression
+find-replace-wildcards:           Wild cards
+
+=== Goto Line Dialog
+
+goto-line-title:                  Goto Line
+
+=== Image Drop Progress Dialog
+
+image-drop-insert-path:           Insert Path
+image-drop-upload-imgur:          Upload to Imgur
+image-drop-as-data-uri:           As Data URI
+image-drop-as-local-file:         As Local File
+image-drop-overwrite-file:        File already exists. Overwrite?
+image-drop-save-as:               Save As
+
+=== Recent Files Dialog
+
+recent-files-title:               Recent Files
+recent-file-not-found:            File no longer exists
+
+=== Themes Dialog
+
+themes-title:                     Themes
+
+=== Tooltips
+
+tooltip-f6:                       F6
+tooltip-f7:                       F7
+tooltip-f8:                       F8
+tooltip-f9:                       F9
+tooltip-f10:                      F10
+tooltip-alt-s:                    Alt+S
+tooltip-ctrl-f7:                  Ctrl+F7
+tooltip-ctrl-w:                   Ctrl+W
+
+=== Insert Hyperlink Dialog
+
+insert-hyperlink-title:           Insert Hyperlink
+insert-hyperlink-optional-title:  optional title
+
+=== Generic
+
+ok:                               OK
+open:                             Open
+save:                             Save
+cancel:                           Cancel
+message-html-clipboard:		        HTML copied to clipboard
+aslocalfile-save-file-as:         Save file as (.png appended to name)?
+table-of-contents:                Table of Contents
