@@ -1,0 +1,3 @@
+# MarkDown Readme
+
+A close friend of mine [Liam Croft](https://github.com/L-1-AM) got me into the good practice of creating small documents that explain what I am doing, for my own benefit more than anything. I have been creating little documents that go over everything i have been learning, you will more than likely find documents that go over any project that is on my git. Hopefully, with persistence and patience i'll be half as clever as my friend one day
