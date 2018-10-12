@@ -1,0 +1,3 @@
+# Wordpress and Wamp 
+
+wordpress works by hosting on a server, *but* the server can either be a local server or a public server. So, in the lab, we are using a free tool called [WAMP](<http://www.wampserver.com/en/>). WAMP is a free server hosting tool that you can download onto your machine that allows you to, much like JS Node, hose a server from your machine. But WAMP is a lot more professional than basic command line tools.
