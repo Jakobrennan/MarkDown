@@ -112,6 +112,22 @@ The other option is the put your network onto the `internet`, this means you wil
 `peer-to-peer` netowkrs are also known as `workgroups`. They have an interesting set up and were one of the first WAN's to be introduced. The basic premis of a `peer-to-peer` is that each computer on a network is connected to each other, and that each computer can share resources with the other computers. The catch is that the each computer is in charge of their own security, and the configuration of the computer has to be set up on each computer.
 If you take a network of 4 computers for example, 4 users set up on each of the 4 computers would mean that 16 accounts will have to be created and set up. This includes the passwords, the usernames, configurations, etc. The jobs will become tedious and long the more cimputers that are connected to the network.
 This can be seen as an issue, but when 10 more computers are connected in this format, 2 big problems occur:
+
+                   +------------+            +------------+
+                   | Machine 1  |            | Machine 2  |
+                   +------------+            +------------+
+                                 \          /
+                                  \        /
+                                   +------+
+                                   | Hub  |
+                                   +------+
+                                  /        \
+                                 /          \
+                   +------------+            +------------+
+                   | Machine 3  |            | Machine 4  |
+                   +------------+            +------------+
+
+
 The first is the network speed. 
 When computers in this form of communication contact one another, it's the same as calling for a person in a crowded room. If a computer is contacting user 'joe', then the sending computer will have to find who 'joe' is, and once 'joe' responds, only then can the sender deliver their message. 
 
