@@ -144,4 +144,25 @@ Disadvantages:
 	- Administrative burden of maintaining accounts on all computers.
 	- No scalability
 
+#### Understanding Client-Server relations
+
+> To fully understand `Client-Server` relationships, you need to understand the
+> definitions::
+> **Server** - simply a machine that has resources that other machines want to
+> acquire
+> **Client** - these are the machines that are requesting the resources from the
+> machine.
+
+<u>File Server</u>
+A file server is a centralized machine that conatins all of the resources of
+that are requested from other machines. 
+`Servers` are also more special than machines due to the fact that they have
+more hardware resources allocated to them in order to support a lot more
+machines than a [peer-to-peet network](#Peer-to-Peer Networks).
+The main `advantage` of this type of set-up is that mthe security of the
+resources are centralized to the server.
+Another slight _advantage_ is that you don't have to manually place all of the
+resources onto each machine involved in the network.
+
+<u>Domain-Based Servers</u>
 
