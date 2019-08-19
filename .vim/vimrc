@@ -1,0 +1,138 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Jaokb Brennan's Vim/Neovim Configuration File
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This is my main configuration file for Vim (vimrc) and Neovim (init.vim).
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Sensible Defaults
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This section sets options to make Vim more sensible to use. It also the
+" section that sets all the built in options. This configuration was inspired
+" TPope's sensible.vim file. To learn more about help option just enter the
+" command ":help 'option'". If you are running Neovim you view the extra
+" defaults set Neovim by entering ":help nvim-defaults". 
+
+" Syntax and indentation options.
+filetype plugin indent on
+syntax enable
+
+set autoindent
+set backspace=indent,eol,start
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" List trailing white space.
+set list
+
+" Set line endings on new buffers.
+set fileformats=unix,dos
+
+" Switch on line numbers.
+set number
+
+" Word wrapping options.
+set tw=80
+set nowrap
+
+" Set file and tag only completion.
+set complete-=i
+
+" Remove octal numbering from the numbering formats.
+set nrformats-=octal
+
+" Set screen to move to matched searches.
+set incsearch
+
+" Sets the status line to always appear. This is the bar at the bottom of the
+" screen.
+set laststatus=2
+
+" Switch on the ruler. Can be seen in the bottom right of the status bar.
+set ruler
+
+" Switch on the wildmenu. A more enhanced form of tab-competition for the
+" command line.
+set wildmenu
+
+" Sets window scrolling to always display at least one empty blank line at the
+" bottom of the file.
+set scrolloff=1
+set sidescrolloff=5
+
+" Makes window display as much of the last line as possible.
+set display+=lastline
+
+" Set file encoding to UTF-8.
+set encoding=utf-8
+	
+" Display unwanted characters when 'list' is set.
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+
+" Set where to look for the tags file.
+set tags=./tags
+
+" Automatically read files in they have been modified externally.
+set autoread
+
+" Set the number of commands and search patterns to remember.
+set history=1000
+
+" Set the maximum number of tab pages to have open.
+set tabpagemax=50
+
+" Switch on spell checking. File containing words add to the spell checking
+" directory can be found in the 'spell' directory. This directory is then
+" found in the directory of the configuration files.
+set spelllang=en_gb
+"set spell
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Plugin Manager - Vim-Plug
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This section contains all the plugins which are managed by Vim-Plug. This
+" section doesn't contain plugin settings only the plugins which are installed
+" using the plugin manager.
+call plug#begin('~/vimfiles/plugged')
+
+"" Syntax Highlighting
+"Plug 'chriskempson/base16-vim'
+"Plug 'ericbn/vim-solarized'
+
+"" Syntax Support
+Plug 'pangloss/vim-javascript'
+"Plug 'ElmCast/elm-vim'
+
+"" Utility
+" File tree explorer; allows me to view and navigate around project files
+" within a directory.
+Plug 'scrooloose/nerdtree'
+
+call plug#end()
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Plugin Settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This section contains the settings required by individual plugins.
+
+"" Settings for NERDTree
+" Open when Vim starts.
+autocmd vimenter * NERDTree
+
+" Close when opening file.
+let NERDTreeQuitOnOpen = 1
+
+" Automatically close if NERDTree is the only window left.
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Remove files from buffer if file is deleted.
+let NERDTreeAutoDeleteBuffer = 1
+
+" Toggle with Ctrl + n.
+map <C-n> :NERDTreeToggle<CR>
+
+" Make more pretty.
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
